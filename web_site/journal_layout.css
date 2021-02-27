@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    border: 5px solid green;
+}
+.header{
+    border: 5px solid orangered;
+}
+
+.header h2 {
+    border: 5px solid orange;
+}
+.date {
+    border: 5px solid purple;
+
+}
+
+div {
+    border: 5px solid blue;
+}
