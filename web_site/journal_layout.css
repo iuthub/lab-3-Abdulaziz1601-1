@@ -25,9 +25,16 @@ body {
 }
 
 .cookie, .tool {
+    overflow: hidden;
     border: 5px solid blue;
     background-color: #E8FBFB;
     padding: 5px;
     margin-top: 10px;
 
+}
+img {
+    float: right;
+}
+p {
+ 
 }
