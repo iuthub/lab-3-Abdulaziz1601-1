@@ -5,7 +5,9 @@
 }
 .container *:hover {color: yellow} /*Ex: 7*/
 
-body {background: url('images/bg.png');}
+body {
+    background: url('images/bg.png');
+}
 
 img {float: right;}
 
@@ -15,6 +17,8 @@ p {margin-top: 15px;}
     border: 10px solid #fff;
     background-color: #fff;
     margin: 0 10%;
+    overflow: hidden;
+    
 }
 
 .header{
@@ -33,19 +37,16 @@ p {margin-top: 15px;}
     padding: 5px;
     margin-top: 10px;
 }
-/* 
-.friend-list, .cookie, .tool {
-    float: left;
-    
+
+.cookie, .tool {
+    float: right;
+    width: 75%;
 }
 .friend-list {
     margin-top: 10px;
     margin-right: 10px;
     padding: 10px;
-    width: 15%;
     background-color: #C2E9E9;
     border: 5px solid #0a57ca ;
+    width: 15%;
 }
-.cookie {
-        margin-left: 170px;
-} */
