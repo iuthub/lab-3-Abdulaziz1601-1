@@ -4,10 +4,16 @@
     margin: 0;
 }
 body {
+    background: url('images/bg.png');
+}
+.container {
     border: 5px solid green;
+    background-color: #fff;
+    margin: 0 10%;
 }
 .header{
     border: 5px solid orangered;
+    text-align: right;
 }
 
 .header h2 {
@@ -18,6 +24,10 @@ body {
 
 }
 
-div {
+.cookie, .tool {
     border: 5px solid blue;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+
 }
