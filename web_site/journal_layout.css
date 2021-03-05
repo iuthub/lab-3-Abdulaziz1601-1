@@ -3,11 +3,9 @@
     padding: 0;
     margin: 0;
 }
-.container *:hover {color: yellow} /*Ex: 7*/
+.container *:hover {color: pink} /*Ex: 7*/
 
-body {
-    background: url('images/bg.png');
-}
+body {background: url('images/bg.png');}
 
 img {float: right;}
 
@@ -18,7 +16,6 @@ p {margin-top: 15px;}
     background-color: #fff;
     margin: 0 10%;
     overflow: hidden;
-    
 }
 
 .header{
@@ -36,12 +33,10 @@ p {margin-top: 15px;}
     background-color: #E8FBFB;
     padding: 5px;
     margin-top: 10px;
-}
-
-.cookie, .tool {
     float: right;
     width: 75%;
 }
+
 .friend-list {
     margin-top: 10px;
     margin-right: 10px;
