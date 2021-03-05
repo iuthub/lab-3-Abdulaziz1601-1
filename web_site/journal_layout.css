@@ -48,5 +48,5 @@ p {margin-top: 15px;}
     padding: 10px;
     background-color: #C2E9E9;
     border: 5px solid #0a57ca ;
-    width: 15%;
+    float: left;
 }
