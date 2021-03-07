@@ -3,13 +3,24 @@
     padding: 0;
     margin: 0;
 }
-.container *:hover {color: pink} /*Ex: 7*/
 
-body {background: url('images/bg.png');}
+.container *:hover {
+    color: yellow
+}
 
-img {float: right;}
+/*Ex: 7*/
 
-p {margin-top: 15px;}
+body {
+    background: url('images/bg.png');
+}
+
+img {
+    float: right;
+}
+
+p {
+    margin-top: 15px;
+}
 
 .container {
     border: 10px solid #fff;
@@ -18,16 +29,21 @@ p {margin-top: 15px;}
     overflow: hidden;
 }
 
-.header{
+.header {
     background-color: #A8F0F0;
     text-align: right;
 }
 
-.header h2 {font-size: 14pt;}
+.header h2 {
+    font-size: 14pt;
+}
 
-.date {border-bottom: 2px dashed #29abf7;}
-    
-.cookie, .tool {
+.date {
+    border-bottom: 2px dashed #29abf7;
+}
+
+.cookie,
+.tool {
     overflow: hidden;
     border: 4px solid #C2E9E9;
     background-color: #E8FBFB;
@@ -42,6 +58,6 @@ p {margin-top: 15px;}
     margin-right: 10px;
     padding: 10px;
     background-color: #C2E9E9;
-    border: 5px solid #0a57ca ;
+    border: 5px solid #0a57ca;
     float: left;
 }
